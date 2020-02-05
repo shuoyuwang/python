@@ -1,0 +1,20 @@
+python3.7 更新pip版本的方法：
+1.cd到pip所在文件夹下，例如我的pip在C:\Users\EP02\AppData\Local\Programs\Python\Python37-32\Scripts 目录下
+2.再加python pip3.exe
+3.再加 python -m pip install --upgrade pip
+
+
+cmd指令码 
+\>d:       切换硬盘D
+\>cd Linux 切换Linux
+cd ..      返回上一层文件夹
+cd /       返回主目录
+dir        查看目录文件
+
+pip show selenium
+
+
+pip安装selenium失败解决方法
+1.网络超时的原因：
+pip --default-timeout=100 install -U selenium==2.53.6
+2.下载selenium安装包手动安装 
